@@ -1,0 +1,50 @@
+2022-09-06 19:12:36,392 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on DESKTOP-BFDVUGA with PID 18092 (C:\Users\turi\IdeaProjects\nd035-c1-spring-boot-basics-project-starter\starter\nd035-c4-Security-and-DevOps\starter_code\target\classes started by turi in C:\Users\turi\IdeaProjects\nd035-c1-spring-boot-basics-project-starter\starter\nd035-c4-Security-and-DevOps)
+2022-09-06 19:12:36,396 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-09-06 19:12:36,397 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2022-09-06 19:12:38,718 DEBUG c.e.d.s.JWTAuthenticationVerificationFilter [main] Filter 'JWTAuthenticationVerificationFilter' configured for use
+2022-09-06 19:12:39,486 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 3.325 seconds (JVM running for 4.398)
+2022-09-06 19:12:39,488 INFO c.e.d.SareetaApplication [main] My Ecommerce app just Started
+2022-09-06 19:12:41,885 INFO c.e.d.c.UserController [http-nio-8080-exec-2] Creating user Arturo
+2022-09-06 19:12:41,914 INFO c.e.d.c.UserController [http-nio-8080-exec-2] Evaluating password : Admin123456
+2022-09-06 19:12:42,070 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-3] Request is to process authentication
+2022-09-06 19:12:42,421 INFO c.e.d.c.CartController [http-nio-8080-exec-5] Cart has been modified for user Arturo, with Item Optional[Item(id=1, name=Round Widget, price=2.99, description=A widget that is round)]
+2022-09-06 19:12:42,449 INFO c.e.d.c.OrderController [http-nio-8080-exec-6] Order has been submitted : orderID : 1
+2022-09-06 19:41:46,447 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on DESKTOP-BFDVUGA with PID 36772 (C:\Users\turi\IdeaProjects\nd035-c1-spring-boot-basics-project-starter\starter\nd035-c4-Security-and-DevOps\starter_code\target\classes started by turi in C:\Users\turi\IdeaProjects\nd035-c1-spring-boot-basics-project-starter\starter\nd035-c4-Security-and-DevOps)
+2022-09-06 19:41:46,452 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-09-06 19:41:46,452 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2022-09-06 19:41:48,956 DEBUG c.e.d.s.JWTAuthenticationVerificationFilter [main] Filter 'JWTAuthenticationVerificationFilter' configured for use
+2022-09-06 19:41:49,784 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 3.556 seconds (JVM running for 4.588)
+2022-09-06 19:41:49,786 INFO c.e.d.SareetaApplication [main] My Ecommerce app just Started
+2022-09-06 19:41:54,714 INFO c.e.d.c.UserController [http-nio-8080-exec-2] Creating user Arturo
+2022-09-06 19:41:54,741 INFO c.e.d.c.UserController [http-nio-8080-exec-2] Evaluating password : Admin123456
+2022-09-06 19:41:54,851 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-3] Request is to process authentication
+2022-09-06 19:41:55,192 INFO c.e.d.c.CartController [http-nio-8080-exec-5] Cart has been modified for user Arturo, with Item Optional[Item(id=1, name=Round Widget, price=2.99, description=A widget that is round)]
+2022-09-06 19:41:55,224 INFO c.e.d.c.OrderController [http-nio-8080-exec-6] Order has been submitted : orderID : 1
+2022-09-06 19:41:57,678 INFO c.e.d.c.UserController [http-nio-8080-exec-7] Creating user Arturo
+2022-09-06 19:41:57,679 INFO c.e.d.c.UserController [http-nio-8080-exec-7] Evaluating password : Admin123456
+2022-09-06 19:41:57,749 ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-7] Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2022-09-06 19:41:57,787 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-8] Request is to process authentication
+2022-09-06 19:41:57,906 INFO c.e.d.c.CartController [http-nio-8080-exec-1] Cart has been modified for user Arturo, with Item Optional[Item(id=1, name=Round Widget, price=2.99, description=A widget that is round)]
+2022-09-06 19:41:57,923 INFO c.e.d.c.OrderController [http-nio-8080-exec-2] Order has been submitted : orderID : 2
+2022-09-06 19:44:47,619 INFO c.e.d.c.UserController [http-nio-8080-exec-5] Creating user Arturo
+2022-09-06 19:44:47,620 INFO c.e.d.c.UserController [http-nio-8080-exec-5] Evaluating password : Admin123456
+2022-09-06 19:44:47,694 ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-5] Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2022-09-06 19:44:47,719 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-7] Request is to process authentication
+2022-09-06 19:44:47,867 INFO c.e.d.c.CartController [http-nio-8080-exec-8] Cart has been modified for user Arturo, with Item Optional[Item(id=1, name=Round Widget, price=2.99, description=A widget that is round)]
+2022-09-06 19:44:47,895 INFO c.e.d.c.OrderController [http-nio-8080-exec-10] Order has been submitted : orderID : 3
+2022-09-06 19:48:17,896 INFO c.e.d.c.UserController [http-nio-8080-exec-2] Creating user Arturo
+2022-09-06 19:48:17,898 INFO c.e.d.c.UserController [http-nio-8080-exec-2] Evaluating password : Admin123456
+2022-09-06 19:48:17,969 ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-2] Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2022-09-06 19:48:17,988 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-5] Request is to process authentication
+2022-09-06 19:48:18,124 INFO c.e.d.c.CartController [http-nio-8080-exec-7] Cart has been modified for user Arturo, with Item Optional[Item(id=1, name=Round Widget, price=2.99, description=A widget that is round)]
+2022-09-06 19:48:18,253 INFO c.e.d.c.OrderController [http-nio-8080-exec-9] Order has been submitted : orderID : 4
+2022-09-06 20:19:45,892 INFO c.e.d.c.UserController [http-nio-8080-exec-1] Creating user Arturo
+2022-09-06 20:19:45,894 INFO c.e.d.c.UserController [http-nio-8080-exec-1] Evaluating password : Admin123456
+2022-09-06 20:19:45,962 ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-1] Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2022-09-06 20:19:45,982 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-2] Request is to process authentication
+2022-09-06 20:19:46,114 INFO c.e.d.c.CartController [http-nio-8080-exec-5] Cart has been modified for user Arturo, with Item Optional[Item(id=1, name=Round Widget, price=2.99, description=A widget that is round)]
+2022-09-06 20:19:46,134 INFO c.e.d.c.OrderController [http-nio-8080-exec-6] Order has been submitted : orderID : 5

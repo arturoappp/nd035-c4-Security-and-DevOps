@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG">
+    <appender name="splunkhttp" class="com.splunk.logging.HttpEventCollectorLogbackAppender">
+        <url>http://52.91.193.60:8088</url>
+        <host>52.91.193.60</host>
+        <source>y</source>
+        <sourcetype>z</sourcetype>
+        <token>eaf4bd34-77f4-4d8b-b683-4852880e233d</token>
+        <disableCertificateValidation>true</disableCertificateValidation>
+        <batch_size_count>1</batch_size_count>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%logger: %msg%n</pattern>
+        </layout>
+    </appender>
+
+
+    <Loggers>
+        <Logger name="com.example" level="debug" additivity="false">
+            <AppenderRef ref="splunkhttp"/>
+            <AppenderRef ref="LogToConsole"/>
+        </Logger>
+        <Logger name="org.springframework.boot" level="error" additivity="false">
+            <AppenderRef ref="LogToConsole"/>
+        </Logger>
+        <Root level="error">
+            <AppenderRef ref="splunkhttp"/>
+            <AppenderRef ref="LogToConsole"/>
+        </Root>
+    </Loggers>
+
+</Configuration>
