@@ -1,0 +1,42 @@
+2022-09-06 23:17:44,508 INFO c.e.d.FuntionalIntegrationTest [main] Starting FuntionalIntegrationTest on DESKTOP-BFDVUGA with PID 27468 (started by turi in C:\Users\turi\IdeaProjects\nd035-c1-spring-boot-basics-project-starter\starter\nd035-c4-Security-and-DevOps\starter_code)
+2022-09-06 23:17:44,514 DEBUG c.e.d.FuntionalIntegrationTest [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-09-06 23:17:44,514 INFO c.e.d.FuntionalIntegrationTest [main] No active profile set, falling back to default profiles: default
+2022-09-06 23:17:49,156 INFO c.e.d.FuntionalIntegrationTest [main] Started FuntionalIntegrationTest in 4.843 seconds (JVM running for 6.465)
+2022-09-06 23:17:49,252 INFO c.e.d.c.UserController [main] Creating user cGCjbXEiAJ
+2022-09-06 23:17:49,286 INFO c.e.d.c.UserController [main] Evaluating password : `W/l.=i/Aa157@
+2022-09-06 23:17:49,478 INFO c.e.d.c.CartController [main] Cart has been modified for user cGCjbXEiAJ, with Item Optional[Item(id=1, name=Round Widget, price=2.99, description=A widget that is round)]
+2022-09-06 23:17:49,496 INFO c.e.d.c.OrderController [main] Order has been submitted : orderID : 1
+2022-09-06 23:17:49,522 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on DESKTOP-BFDVUGA with PID 27468 (started by turi in C:\Users\turi\IdeaProjects\nd035-c1-spring-boot-basics-project-starter\starter\nd035-c4-Security-and-DevOps\starter_code)
+2022-09-06 23:17:49,523 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-09-06 23:17:49,523 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2022-09-06 23:17:50,848 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 1.343 seconds (JVM running for 8.157)
+2022-09-06 23:17:50,868 INFO c.e.d.c.CartControllerTest [main] Starting CartControllerTest on DESKTOP-BFDVUGA with PID 27468 (started by turi in C:\Users\turi\IdeaProjects\nd035-c1-spring-boot-basics-project-starter\starter\nd035-c4-Security-and-DevOps\starter_code)
+2022-09-06 23:17:50,869 DEBUG c.e.d.c.CartControllerTest [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-09-06 23:17:50,869 INFO c.e.d.c.CartControllerTest [main] No active profile set, falling back to default profiles: default
+2022-09-06 23:17:52,098 INFO c.e.d.c.CartControllerTest [main] Started CartControllerTest in 1.243 seconds (JVM running for 9.407)
+2022-09-06 23:17:52,116 INFO c.e.d.c.CartController [main] Cart has been modified for user xpjEgcHZJb, with Item Optional[Item(id=50, name=EamnrsaYnO, price=91, description=LaYCQgjJBa)]
+2022-09-06 23:17:52,121 INFO c.e.d.c.CartController [main] Cart has been removed for user uZWskChHDh, with Item Optional[Item(id=87, name=hSNNfgPlTJ, price=33, description=cDDwhmQZRh)]
+2022-09-06 23:17:52,124 ERROR c.e.d.c.CartController [main] Item doesn't exist : 37 
+2022-09-06 23:17:52,127 ERROR c.e.d.c.CartController [main] User doesn't exist : BAoGpcTKnK 
+2022-09-06 23:17:52,140 INFO c.e.d.c.ItemControllerTest [main] Starting ItemControllerTest on DESKTOP-BFDVUGA with PID 27468 (started by turi in C:\Users\turi\IdeaProjects\nd035-c1-spring-boot-basics-project-starter\starter\nd035-c4-Security-and-DevOps\starter_code)
+2022-09-06 23:17:52,140 DEBUG c.e.d.c.ItemControllerTest [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-09-06 23:17:52,140 INFO c.e.d.c.ItemControllerTest [main] No active profile set, falling back to default profiles: default
+2022-09-06 23:17:53,146 INFO c.e.d.c.ItemControllerTest [main] Started ItemControllerTest in 1.016 seconds (JVM running for 10.454)
+2022-09-06 23:17:53,159 INFO c.e.d.c.ItemController [main] Getting all Items
+2022-09-06 23:17:53,174 INFO c.e.d.c.OrderControllerTest [main] Starting OrderControllerTest on DESKTOP-BFDVUGA with PID 27468 (started by turi in C:\Users\turi\IdeaProjects\nd035-c1-spring-boot-basics-project-starter\starter\nd035-c4-Security-and-DevOps\starter_code)
+2022-09-06 23:17:53,174 DEBUG c.e.d.c.OrderControllerTest [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-09-06 23:17:53,174 INFO c.e.d.c.OrderControllerTest [main] No active profile set, falling back to default profiles: default
+2022-09-06 23:17:54,231 INFO c.e.d.c.OrderControllerTest [main] Started OrderControllerTest in 1.069 seconds (JVM running for 11.54)
+2022-09-06 23:17:54,254 INFO c.e.d.c.OrderController [main] Order has been submitted : orderID : 74
+2022-09-06 23:17:54,259 ERROR c.e.d.c.OrderController [main] User doesn't exist : EnmKXDwhSm 
+2022-09-06 23:17:54,275 INFO c.e.d.c.UserControllerTest [main] Starting UserControllerTest on DESKTOP-BFDVUGA with PID 27468 (started by turi in C:\Users\turi\IdeaProjects\nd035-c1-spring-boot-basics-project-starter\starter\nd035-c4-Security-and-DevOps\starter_code)
+2022-09-06 23:17:54,275 DEBUG c.e.d.c.UserControllerTest [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-09-06 23:17:54,275 INFO c.e.d.c.UserControllerTest [main] No active profile set, falling back to default profiles: default
+2022-09-06 23:17:55,147 INFO c.e.d.c.UserControllerTest [main] Started UserControllerTest in 0.881 seconds (JVM running for 12.456)
+2022-09-06 23:17:55,156 INFO c.e.d.c.UserController [main] Creating user ZrHPrzJBZR
+2022-09-06 23:17:55,156 INFO c.e.d.c.UserController [main] Evaluating password : short
+2022-09-06 23:17:55,156 ERROR c.e.d.c.UserController [main] Password must be less than 15 and more than 8 characters in length.
+2022-09-06 23:17:55,157 ERROR c.e.d.c.UserController [main] Password must have atleast one uppercase character
+2022-09-06 23:17:55,157 ERROR c.e.d.c.UserController [main] Password must have atleast one number
+2022-09-06 23:17:55,162 INFO c.e.d.c.UserController [main] Creating user oQocImMTIb
+2022-09-06 23:17:55,162 INFO c.e.d.c.UserController [main] Evaluating password : ''$**^f>Aa158@
