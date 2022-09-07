@@ -30,7 +30,7 @@ insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505
 2022-09-06 19:44:47,619 INFO c.e.d.c.UserController [http-nio-8080-exec-5] Creating user Arturo
 2022-09-06 19:44:47,620 INFO c.e.d.c.UserController [http-nio-8080-exec-5] Evaluating password : Admin123456
 2022-09-06 19:44:47,694 ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-5] Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
-insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+insert into user (id, cart_id,  password, username) values (null, ?, ?, ?) [23505-199]
 2022-09-06 19:44:47,719 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-7] Request is to process authentication
 2022-09-06 19:44:47,867 INFO c.e.d.c.CartController [http-nio-8080-exec-8] Cart has been modified for user Arturo, with Item Optional[Item(id=1, name=Round Widget, price=2.99, description=A widget that is round)]
 2022-09-06 19:44:47,895 INFO c.e.d.c.OrderController [http-nio-8080-exec-10] Order has been submitted : orderID : 3
